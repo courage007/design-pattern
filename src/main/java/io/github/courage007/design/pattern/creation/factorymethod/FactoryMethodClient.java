@@ -16,6 +16,7 @@ public class FactoryMethodClient {
         this.factory = factory;
     }
 
+    // 调用方式一：方法中实例化工厂子类
     public void test() {
         ProductFactory productFactoryA = new ProductFactoryA();
         Product productA = productFactoryA.create();
@@ -25,11 +26,13 @@ public class FactoryMethodClient {
         productB.function();
     }
 
+    // 调用方式二：工厂对象作为方法参数(工具类方法)
     public void foo(ProductFactory factory) {
         Product productA = factory.create();
         productA.function();
     }
 
+    // 调用方式三：使用构造函数中传入的工厂(工厂一旦绑定，无法修改)
     public void foo() {
         Product productA = this.factory.create();
         productA.function();
