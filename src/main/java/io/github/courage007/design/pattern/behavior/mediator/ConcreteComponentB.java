@@ -5,17 +5,18 @@ package io.github.courage007.design.pattern.behavior.mediator;
  *
  * @date: 2023-08-05
  */
-public class ConcreteComponentA extends Component {
-    public ConcreteComponentA(IMediator mediator) {
+public class ConcreteComponentB extends Component {
+    public ConcreteComponentB(IMediator mediator) {
         super(mediator);
     }
 
-    public void operation(String message, Component target) {
-        super.operation(message, target);
-        operationA();
+    @Override
+    public void operation(String message) {
+        super.operation(message);
+        operationB();
     }
 
-    public void operationA() {
-        System.out.println("operationA in a Concrete ComponentA instance");
+    public void operationB() {
+        System.out.println("operationB in a Concrete ComponentB instance");
     }
 }

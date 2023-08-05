@@ -1,17 +1,23 @@
 package io.github.courage007.design.pattern.behavior.mediator;
 
 /**
- * [抽象类]
+ * [组件]
  *
  * @date: 2023-08-05
  */
-public abstract class AbstractClass {
-    public final void templateMethod() {
-        operation1();
-        operation2();
+public abstract class Component {
+    protected IMediator mediator;
+
+    public Component(IMediator mediator) {
+        this.mediator = mediator;
     }
 
-    protected abstract void operation1();
+    public void operation(String message) {
+        System.out.println("message is " + message);
+    }
 
-    protected abstract void operation2();
+    public void send(String message, Component target) {
+        Sender sender = new Sender(message, this, target);
+        mediator.notify(sender);
+    }
 }
