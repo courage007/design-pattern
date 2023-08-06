@@ -1,8 +1,5 @@
 package io.github.courage007.design.pattern.structure.decorator;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * [组合对象]
  *

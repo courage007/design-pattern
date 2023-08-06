@@ -1,7 +1,5 @@
 package io.github.courage007.design.pattern.behavior.command;
 
-import io.github.courage007.design.pattern.behavior.state.ConcreteStateB;
-
 /**
  * [具体命令类B]
  *

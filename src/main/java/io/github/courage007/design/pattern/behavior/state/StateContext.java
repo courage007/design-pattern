@@ -1,9 +1,5 @@
 package io.github.courage007.design.pattern.behavior.state;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Objects;
-
 /**
  * [状态上下文]
  *

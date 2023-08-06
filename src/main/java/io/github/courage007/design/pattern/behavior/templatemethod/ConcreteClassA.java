@@ -1,8 +1,5 @@
 package io.github.courage007.design.pattern.behavior.templatemethod;
 
-import io.github.courage007.design.pattern.behavior.visitor.ConcreteElementA;
-import io.github.courage007.design.pattern.behavior.visitor.ConcreteElementB;
-
 /**
  * [具体实现类A]
  *

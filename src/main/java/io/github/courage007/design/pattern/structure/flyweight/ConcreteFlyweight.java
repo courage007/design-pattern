@@ -1,7 +1,5 @@
 package io.github.courage007.design.pattern.structure.flyweight;
 
-import io.github.courage007.design.pattern.creation.simplefactory.ConcreteProductA;
-
 /**
  * [具体享元类]
  *

@@ -1,6 +1,5 @@
 package io.github.courage007.design.pattern.behavior.templatemethod;
 
-
 /**
  * [模板方法模式客户端]
  *

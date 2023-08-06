@@ -1,7 +1,5 @@
 package io.github.courage007.design.pattern.creation.singleton;
 
-import java.util.Objects;
-
 /**
  * [惰性加载模式]
  *

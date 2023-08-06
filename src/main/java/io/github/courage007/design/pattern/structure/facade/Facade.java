@@ -1,7 +1,5 @@
 package io.github.courage007.design.pattern.structure.facade;
 
-import io.github.courage007.design.pattern.structure.decorator.Component;
-
 /**
  * [外观类]
  *

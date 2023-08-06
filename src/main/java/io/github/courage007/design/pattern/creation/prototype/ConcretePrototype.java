@@ -1,7 +1,5 @@
 package io.github.courage007.design.pattern.creation.prototype;
 
-import java.util.Objects;
-
 /**
  * [具体原型类]
  *
